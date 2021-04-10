@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L CustomSymbols:RoboRIO-SPI J6
 U 1 1 60718BD4
-P 1900 3100
-F 0 "J6" H 1700 3450 50  0000 C CNN
-F 1 "RoboRIO-SPI" H 1900 2850 50  0000 C CNN
-F 2 "" H 2550 3100 50  0001 C CNN
-F 3 "" H 2550 3100 50  0001 C CNN
-	1    1900 3100
+P 1600 2900
+F 0 "J6" H 1400 3250 50  0000 C CNN
+F 1 "RoboRIO-SPI" H 1600 2650 50  0000 C CNN
+F 2 "" H 2250 2900 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    1600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -49,16 +49,16 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6074491F
-P 1450 3250
-F 0 "#PWR01" H 1450 3000 50  0001 C CNN
-F 1 "GND" H 1455 3077 50  0000 C CNN
-F 2 "" H 1450 3250 50  0001 C CNN
-F 3 "" H 1450 3250 50  0001 C CNN
-	1    1450 3250
+P 1150 3050
+F 0 "#PWR01" H 1150 2800 50  0001 C CNN
+F 1 "GND" H 1155 2877 50  0000 C CNN
+F 2 "" H 1150 3050 50  0001 C CNN
+F 3 "" H 1150 3050 50  0001 C CNN
+	1    1150 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3250 1550 3250
+	1150 3050 1250 3050
 $Comp
 L power:GND #PWR04
 U 1 1 60748929
@@ -81,28 +81,28 @@ F 3 "" H 6500 6300 50  0001 C CNN
 	1    6500 6300
 	1    0    0    -1  
 $EndComp
-Text Label 2200 2850 0    50   ~ 0
+Text Label 1900 2650 0    50   ~ 0
 CS3
-Text Label 2200 2950 0    50   ~ 0
+Text Label 1900 2750 0    50   ~ 0
 CS2
-Text Label 2200 3150 0    50   ~ 0
+Text Label 1900 2950 0    50   ~ 0
 CS1
-Text Label 2200 3250 0    50   ~ 0
+Text Label 1900 3050 0    50   ~ 0
 CS0
-NoConn ~ 1550 2850
+NoConn ~ 1250 2650
 $Comp
 L power:+5V #PWR03
 U 1 1 6074D982
-P 2500 3050
-F 0 "#PWR03" H 2500 2900 50  0001 C CNN
-F 1 "+5V" H 2515 3223 50  0000 C CNN
-F 2 "" H 2500 3050 50  0001 C CNN
-F 3 "" H 2500 3050 50  0001 C CNN
-	1    2500 3050
+P 2200 2850
+F 0 "#PWR03" H 2200 2700 50  0001 C CNN
+F 1 "+5V" H 2215 3023 50  0000 C CNN
+F 2 "" H 2200 2850 50  0001 C CNN
+F 3 "" H 2200 2850 50  0001 C CNN
+	1    2200 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3050 2500 3050
+	1900 2850 2200 2850
 Wire Wire Line
 	3700 7500 3600 7500
 Connection ~ 3300 7500
@@ -522,11 +522,11 @@ Text Notes 2650 5800 0    79   ~ 0
 Power Input&Transformer\n
 Text Notes 3400 3050 1    79   ~ 0
 IO-Link Device Jacks
-Text GLabel 1550 2950 0    50   Input ~ 0
+Text GLabel 1250 2750 0    50   Input ~ 0
 MISO
-Text GLabel 1550 3050 0    50   Input ~ 0
+Text GLabel 1250 2850 0    50   Input ~ 0
 MOSI
-Text GLabel 1550 3150 0    50   Input ~ 0
+Text GLabel 1250 2950 0    50   Input ~ 0
 SCLK
 $Sheet
 S 4300 1000 1200 800 
