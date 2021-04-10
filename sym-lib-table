@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name MAX14819)(type Legacy)(uri ${KIPRJMOD}/imports/MAX14819/MAX14819.lib)(options "")(descr ""))
   (lib (name CustomSymbols)(type Legacy)(uri ${KIPRJMOD}/CustomSymbols.lib)(options "")(descr ""))
-  (lib (name TPS61175PWP)(type Legacy)(uri ${KIPRJMOD}/imports/TPS61175PWP/TPS61175PWP.lib)(options "")(descr ""))
+  (lib (name CSD17304Q3)(type Legacy)(uri ${KIPRJMOD}/imports/CSD17304Q3/CSD17304Q3.lib)(options "")(descr ""))
+  (lib (name LM3488MMX-NOPB)(type Legacy)(uri ${KIPRJMOD}/imports/LM3488MMX-NOPB/LM3488MMX-NOPB.lib)(options "")(descr ""))
 )
