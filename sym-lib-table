@@ -1,11 +1,9 @@
 (sym_lib_table
   (lib (name MAX14819)(type Legacy)(uri ${KIPRJMOD}/imports/MAX14819/MAX14819.lib)(options "")(descr ""))
-  (lib (name CustomSymbols)(type Legacy)(uri ${KIPRJMOD}/CustomSymbols.lib)(options "")(descr ""))
   (lib (name LM3488MMX-NOPB)(type Legacy)(uri ${KIPRJMOD}/imports/LM3488MMX-NOPB/LM3488MMX-NOPB.lib)(options "")(descr ""))
   (lib (name SI7421DN-T1-E3)(type Legacy)(uri ${KIPRJMOD}/imports/SI7421DN-T1-E3/SI7421DN-T1-E3.lib)(options "")(descr ""))
-  (lib (name SM30T35AY)(type Legacy)(uri ${KIPRJMOD}/imports/SM30T35AY/SM30T35AY.lib)(options "")(descr ""))
-  (lib (name SM30T47AY)(type Legacy)(uri ${KIPRJMOD}/imports/SM30T47AY/SM30T47AY.lib)(options "")(descr ""))
-  (lib (name SMCJ48A)(type Legacy)(uri ${KIPRJMOD}/imports/SMCJ48A/SMCJ48A.lib)(options "")(descr ""))
   (lib (name CSD18504Q5A)(type Legacy)(uri ${KIPRJMOD}/imports/CSD18504Q5A/CSD18504Q5A.lib)(options "")(descr ""))
   (lib (name SI4431BDY-T1-E3)(type Legacy)(uri ${KIPRJMOD}/imports/SI4431BDY-T1-E3/SI4431BDY-T1-E3.lib)(options "")(descr ""))
+  (lib (name SM30T35AY)(type Legacy)(uri ${KIPRJMOD}/imports/SM30T35AY/SM30T35AY.lib)(options "")(descr ""))
+  (lib (name SM30T47AY)(type Legacy)(uri ${KIPRJMOD}/imports/SM30T47AY/SM30T47AY.lib)(options "")(descr ""))
 )
