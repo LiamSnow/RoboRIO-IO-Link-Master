@@ -1,4 +1,4 @@
-(module CC0603JRNPO9BN271 (layer F.Cu) (tedit 607B2B90)
+(module CC0603JRNPO9BN271 (layer F.Cu) (tedit 607CDE6E)
   (descr <b>CAPACITOR</b>)
   (attr smd)
   (fp_text reference REF** (at 0.0762 -0.635) (layer F.SilkS)
@@ -18,7 +18,7 @@
   (pad 1 smd rect (at -0.85 0) (size 1.1 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.85 0) (size 1.1 1) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/imports/CC0603JRNPO9BN271/CC0603JRNPO9BN271.step
-    (offset (xyz 0 -0.45 0))
+    (offset (xyz 0 -0.45 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
