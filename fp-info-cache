@@ -1,4 +1,4 @@
-15289634254949144
+15294492013832227
 35SVPF82M
 35SVPF82M
 
@@ -65002,12 +65002,33 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 2
 2
 RoboRIO-IO-Link-Master
+34e
+
+
+0
+0
+0
+RoboRIO-IO-Link-Master
 TestPointFootprint
 THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
 test point THT pad
 0
 1
 1
+RoboRIO-IO-Link-Master
+io-link
+
+
+0
+0
+0
+RoboRIO-IO-Link-Master
+rr
+
+
+0
+0
+0
 SFH11-PBPC-D17-ST-BK
 SFH11-PBPC-D17-ST-BK
 
@@ -65027,7 +65048,7 @@ SI7421DN-T1-E3
 
 
 0
-8
+9
 8
 SM30T35AY
 SM30T35AY
